@@ -35,6 +35,7 @@ namespace temafive
             this.lblCoste = new System.Windows.Forms.Label();
             this.txtCoste = new System.Windows.Forms.TextBox();
             this.btnCalc = new System.Windows.Forms.Button();
+            this.bttn2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblTexto
@@ -90,11 +91,22 @@ namespace temafive
             this.btnCalc.UseVisualStyleBackColor = true;
             this.btnCalc.Click += new System.EventHandler(this.btnCalc_Click);
             // 
+            // bttn2
+            // 
+            this.bttn2.Location = new System.Drawing.Point(380, 327);
+            this.bttn2.Name = "bttn2";
+            this.bttn2.Size = new System.Drawing.Size(75, 23);
+            this.bttn2.TabIndex = 6;
+            this.bttn2.Text = "Saudo";
+            this.bttn2.UseVisualStyleBackColor = true;
+            this.bttn2.Click += new System.EventHandler(this.bttn2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.bttn2);
             this.Controls.Add(this.btnCalc);
             this.Controls.Add(this.txtCoste);
             this.Controls.Add(this.lblCoste);
@@ -116,6 +128,7 @@ namespace temafive
         private System.Windows.Forms.Label lblCoste;
         private System.Windows.Forms.TextBox txtCoste;
         private System.Windows.Forms.Button btnCalc;
+        private System.Windows.Forms.Button bttn2;
     }
 }
 

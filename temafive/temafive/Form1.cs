@@ -48,6 +48,10 @@ namespace temafive
             txtCoste.Text = coste.ToString() + " euros";
         }
 
+        private void bttn2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hola");
+        }
     }
 }
 
